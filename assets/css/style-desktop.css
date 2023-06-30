@@ -1,0 +1,124 @@
+/* Your styles here */
+@font-face {
+  font-family: sans-serif;
+  src: url(../Fonts/OpenSans-VariableFont_wdth\wght.ttf);
+}
+@font-face {
+  font-family: montserrat;
+  src: url(../Fonts/Montserrat-VariableFont_wght.ttf);
+}
+h1,
+h3 {
+  color: #25a2c3;
+  font-weight: bold;
+}
+
+body {
+  color: #393d41;
+  font-size: 1.6rem;
+  font-family: sans-serif;
+  line-height: 1.65;
+  width: 1920;
+  max-width: 100%;
+}
+
+img {
+  width: 150px;
+}
+header {
+  font-family: montserrat;
+  line-height: 1.5;
+  padding: 150px 400px;
+  background: url(../images/banner.jpg);
+  background-size: 120%;
+  background-position-x: -90px;
+  text-align: center;
+}
+.logo {
+  background: black;
+  width: 150px;
+  line-height: 0;
+  margin-bottom: -10px;
+  text-align: right;
+  padding: 30px;
+  padding-right: 1740px;
+}
+header button {
+  color: white;
+  background: #f04c2f;
+  font-family: montserrat;
+  font-weight: bold;
+  padding: 15px 30px;
+  border-radius: 5%;
+  border: #f04c2f;
+}
+main {
+  margin: 100px;
+}
+main img {
+  border-radius: 100%;
+  width: 500px;
+  float: left;
+  margin-left: 100px;
+  margin-right: 75px;
+}
+
+aside {
+  background: #e22d0e;
+  color: white;
+  padding: 80px;
+  text-align: center;
+}
+aside h4 {
+  font-size: small;
+}
+aside p {
+  font-size: xx-small;
+}
+p.italic {
+  font-style: italic;
+  font-size: medium;
+}
+.articleslots {
+  margin: 100px;
+  text-align: center;
+}
+article {
+  text-align: center;
+  border: 2px solid #dee1e3;
+  width: 400px;
+  display: inline-block;
+  margin: 20px;
+  font-size: 1.2rem;
+}
+article img {
+  width: 400px;
+  height: 270px;
+}
+
+footer {
+  color: #c8e7f0;
+  background: #25a2c3;
+  font-size: small;
+  padding: 40px 850px;
+}
+footer h2 {
+  color: white;
+  font-weight: bold;
+}
+footer > a:link,
+a:visited {
+  color: #c8e7f0;
+}
+footer hr {
+  width: 190px;
+}
+.credits {
+  text-align: center;
+}
+h1 {
+  font-size: xx-large;
+}
+h2 {
+  font-size: x-large;
+}
