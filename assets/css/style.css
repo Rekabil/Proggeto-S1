@@ -12,36 +12,78 @@ h3 {
   color: #25a2c3;
   font-weight: bold;
 }
-h1,
-h2 {
-  font-size: xx-large;
-}
-aside {
-  background: #e22d0e;
-  color: white;
-}
+
 body {
   color: #393d41;
   font-size: 1.2rem;
   font-family: sans-serif;
   line-height: 1.65;
   text-align: center;
+  width: 500;
+  max-width: 100%;
+}
+
+img {
+  width: 100%;
 }
 header {
-  font-family: montserrat bold;
+  font-family: montserrat;
   line-height: 1.5;
+  padding: 40px;
+}
+header {
+  background: url(../images/banner.jpg);
+  background-size: 120%;
+  background-position-x: -90px;
+}
+.logo {
   background: black;
+  padding: 30px 150px;
+  width: 40%;
+  line-height: 0;
+  margin-bottom: -10px;
 }
 header button {
+  color: white;
   background: #f04c2f;
-  font-family: montserrat bold;
+  font-family: montserrat;
+  font-weight: bold;
+  padding: 15px 30px;
+  border-radius: 5%;
+  border: #f04c2f;
 }
+main {
+  margin: 55px;
+}
+main img {
+  border-radius: 100%;
+  width: 85%;
+}
+p.italic {
+  font-style: italic;
+}
+aside {
+  background: #e22d0e;
+  color: white;
+  padding: 40px;
+}
+aside p {
+  font-size: small;
+}
+article {
+  border: 2px solid #dee1e3;
+  margin: 15px;
+}
+
 footer {
   color: #c8e7f0;
   background: #25a2c3;
+  font-size: small;
+  padding: 40px;
 }
 footer h2 {
   color: white;
+  font-weight: bold;
 }
 footer > a:link,
 a:visited {
@@ -49,4 +91,8 @@ a:visited {
 }
 footer hr {
   width: 30%;
+}
+h1,
+h2 {
+  font-size: xx-large;
 }
