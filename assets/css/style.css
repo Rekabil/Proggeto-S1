@@ -1,1 +1,52 @@
 /* Your styles here */
+@font-face {
+  font-family: sans-serif;
+  src: url(../Fonts/OpenSans-VariableFont_wdth\wght.ttf);
+}
+@font-face {
+  font-family: montserrat;
+  src: url(../Fonts/Montserrat-VariableFont_wght.ttf);
+}
+h1,
+h3 {
+  color: #25a2c3;
+  font-weight: bold;
+}
+h1,
+h2 {
+  font-size: xx-large;
+}
+aside {
+  background: #e22d0e;
+  color: white;
+}
+body {
+  color: #393d41;
+  font-size: 1.2rem;
+  font-family: sans-serif;
+  line-height: 1.65;
+  text-align: center;
+}
+header {
+  font-family: montserrat bold;
+  line-height: 1.5;
+  background: black;
+}
+header button {
+  background: #f04c2f;
+  font-family: montserrat bold;
+}
+footer {
+  color: #c8e7f0;
+  background: #25a2c3;
+}
+footer h2 {
+  color: white;
+}
+footer > a:link,
+a:visited {
+  color: #c8e7f0;
+}
+footer hr {
+  width: 30%;
+}
